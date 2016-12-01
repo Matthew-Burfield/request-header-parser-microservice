@@ -21,7 +21,7 @@ app.get('/*', function(req, res){
   res.send(output);
 });
 
-var server = app.listen(8080, function(){
+var server = app.listen(process.env.PORT || 8080, function(){
   console.log('Magic is happening on port 8080');
 });
 
