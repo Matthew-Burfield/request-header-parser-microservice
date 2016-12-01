@@ -4,7 +4,8 @@
   "description": "FreeCodeCamp project 2 of backend developer certificate",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
